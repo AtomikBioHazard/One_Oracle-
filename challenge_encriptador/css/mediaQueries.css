@@ -1,0 +1,16 @@
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .cipher {
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }
+  .btns {
+    margin-top: 8%;
+  }
+  .swal2-popup {
+    width: 60rem;
+  }
+  .welcome-msg {
+    font-size: 1.5rem;
+  }
+}
