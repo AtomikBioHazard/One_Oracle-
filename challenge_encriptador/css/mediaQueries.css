@@ -20,3 +20,20 @@
     margin-top: 5%;
   }
 }
+
+@media (max-height: 600px) {
+  body {
+    height: 60vh !important;
+  }
+  .cipher {
+    margin-top: 1%;
+    height: 79vh;
+    transform: scale(0.9);
+  }
+  .btns {
+    margin-top: 1rem;
+  }
+  .footer-info {
+    padding: 0.5rem;
+  }
+}
