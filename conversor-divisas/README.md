@@ -1,4 +1,4 @@
-[Ver en Español](Readme_es)
+[Ver en Español](README_ES)
 
 ## Currency Converter
 

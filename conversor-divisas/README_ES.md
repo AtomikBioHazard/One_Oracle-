@@ -1,4 +1,4 @@
-[English Version](Readme.md)
+[English Version](README.md)
 
 ## Conversor de Monedas
 
