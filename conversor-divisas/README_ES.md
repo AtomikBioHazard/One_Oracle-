@@ -69,7 +69,18 @@ En este paso, vamos a crear un nuevo proyecto utilizando tu IDE preferido, ya se
 7. Visual Studio Code creará automáticamente la estructura del proyecto y abrirá la carpeta del proyecto en el explorador lateral.
 
 
-3. **Consumo de la API**: Implementa la lógica para realizar solicitudes a la API de tasas de cambio.
+#### 3. Consumo de la API:
+
+En este paso, implementaremos la lógica para realizar solicitudes a la API de tasas de cambio. Utilizaremos la API proporcionada por [ExchangeRate-API](https://www.exchangerate-api.com).
+
+1. **Definir la URL de la API**: Utilizaremos la URL proporcionada por la documentación de la API, que en este caso es `https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD`. Asegúrate de reemplazar `"YOUR-API-KEY"` con tu clave de API proporcionada por el servicio.
+
+2. **Realizar la Solicitud HTTP**: Utilizaremos la clase `URL` para crear un objeto URL basado en la URL de la API. Luego, abriremos una conexión `HttpURLConnection` y realizaremos una solicitud GET a la API para obtener los datos de las tasas de cambio.
+
+3. **Convertir la Respuesta a JSON**: Una vez que recibamos la respuesta de la API, la convertiremos a formato JSON. Utilizaremos la biblioteca Google GSON para facilitar esta tarea.
+
+4. **Acceder a los Datos**: Una vez que la respuesta se haya convertido en un objeto JSON, podremos acceder a los datos necesarios, como las tasas de cambio para diferentes monedas.
+
 
 4. **Análisis de la Respuesta JSON**: Desarrolla la lógica para analizar la respuesta JSON y extraer los datos necesarios.
 
