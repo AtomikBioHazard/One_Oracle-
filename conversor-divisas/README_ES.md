@@ -7,7 +7,34 @@ Este proyecto se centra en la creación de un conversor de monedas. A lo largo d
 
 ### Pasos a Seguir:
 
-1. **Configuración del Ambiente Java**: Inicia configurando el ambiente de desarrollo Java.
+#### 1. Configuración del Ambiente Java:
+
+En esta etapa inicial, nos enfocaremos en configurar el entorno de desarrollo Java para nuestro proyecto de Conversor de Monedas. Asegúrate de tener instalados y configurados los siguientes elementos:
+
+1. **Java Development Kit (JDK)**:
+   - Descarga e instala la última versión del JDK desde el sitio oficial de Oracle o utiliza una distribución OpenJDK compatible con tu sistema operativo.
+   - Verifica la instalación ejecutando `java -version` en tu terminal. Deberías ver la versión instalada del JDK.
+
+2. **Entorno de Desarrollo Integrado (IDE)**:
+   - Elige un IDE de tu preferencia para trabajar con Java, como Eclipse, IntelliJ IDEA o NetBeans.
+   - Descarga e instala el IDE seleccionado desde su sitio web oficial.
+   - Configura el IDE según tus preferencias y necesidades de desarrollo.
+
+3. **Configuración de Variables de Entorno**:
+   - Después de instalar el JDK, configura las variables de entorno JAVA_HOME y PATH en tu sistema operativo para que apunten al directorio de instalación del JDK.
+     - En Windows:
+       - Abre la Configuración del Sistema (System Properties).
+       - Haz clic en "Variables de Entorno" (Environment Variables).
+       - En "Variables del Sistema", haz clic en "Nueva..." y crea una variable llamada JAVA_HOME con el valor del directorio de instalación del JDK (por ejemplo, `C:\Program Files\Java\jdk-11.0.12`).
+       - Encuentra la variable PATH en la lista de variables del sistema, haz clic en ella y luego en "Editar...".
+       - Agrega `%JAVA_HOME%\bin` al final de la línea de valores separados por punto y coma.
+       - Haz clic en "Aceptar" para guardar los cambios.
+     - En macOS y Linux:
+       - Abre un terminal y ejecuta el comando `nano ~/.bash_profile` (o `nano ~/.bashrc` en algunos sistemas).
+       - Agrega la línea `export JAVA_HOME=/ruta/al/directorio/jdk` donde `/ruta/al/directorio/jdk` es la ubicación del directorio del JDK.
+       - Guarda y cierra el archivo (Ctrl + X, luego Y para confirmar y Enter).
+       - Ejecuta `source ~/.bash_profile` (o `source ~/.bashrc`) para aplicar los cambios sin reiniciar la terminal.
+
 
 2. **Creación del Proyecto**: Crea un nuevo proyecto en tu IDE preferido.
 
