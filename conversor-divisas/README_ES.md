@@ -36,7 +36,38 @@ En esta etapa inicial, nos enfocaremos en configurar el entorno de desarrollo Ja
        - Ejecuta `source ~/.bash_profile` (o `source ~/.bashrc`) para aplicar los cambios sin reiniciar la terminal.
 
 
-2. **Creación del Proyecto**: Crea un nuevo proyecto en tu IDE preferido.
+#### 2. Creación del Proyecto:
+
+En este paso, vamos a crear un nuevo proyecto utilizando tu IDE preferido, ya sea IntelliJ IDEA o Visual Studio Code.
+
+##### Creación del Proyecto en IntelliJ IDEA:
+
+1. Abre IntelliJ IDEA en tu sistema.
+
+2. En la ventana de inicio de IntelliJ, selecciona "Crear nuevo proyecto" o ve al menú "Archivo" > "Nuevo" > "Proyecto".
+
+3. Selecciona "Java" en la lista de opciones y haz clic en "Siguiente".
+
+4. Configura el proyecto según tus preferencias. Puedes seleccionar el SDK de Java que instalaste en el paso anterior y elegir la ubicación del proyecto en tu sistema.
+
+5. Haz clic en "Finalizar" para crear el proyecto.
+
+##### Creación del Proyecto en Visual Studio Code:
+
+1. Abre Visual Studio Code en tu sistema.
+
+2. Presiona las teclas Shift + Ctrl + P para abrir la paleta de comandos.
+
+3. Escribe "Java: Create New Project" y selecciona esa opción.
+
+4. Selecciona el tipo de proyecto que deseas crear (por ejemplo, "Java" o "Maven").
+
+5. Selecciona la carpeta donde deseas crear el proyecto.
+
+6. Proporciona el nombre del proyecto cuando se te solicite.
+
+7. Visual Studio Code creará automáticamente la estructura del proyecto y abrirá la carpeta del proyecto en el explorador lateral.
+
 
 3. **Consumo de la API**: Implementa la lógica para realizar solicitudes a la API de tasas de cambio.
 
