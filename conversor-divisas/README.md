@@ -1,4 +1,4 @@
-[Ver en Español](README_ES)
+[Ver en Español](README_ES.md)
 
 ## Currency Converter
 
@@ -6,25 +6,25 @@ This project focuses on creating a currency converter. Throughout this process, 
 
 ### Steps to Follow:
 
-1.  **Java Environment Setup**: Start by setting up the Java development environment.
+1. **Java Environment Setup**: Start by setting up the Java development environment.
 
-2.  **Project Creation**: Create a new project in your preferred IDE.
+2. **Project Creation**: Create a new project in your preferred IDE.
 
-3.  **API Consumption**: Implement the logic to make requests to the currency exchange rate API.
+3. **API Consumption**: Implement the logic to make requests to the currency exchange rate API.
 
-4.  **JSON Response Analysis**: Develop the logic to analyze the JSON response and extract the necessary data.
+4. **JSON Response Analysis**: Develop the logic to analyze the JSON response and extract the necessary data.
 
-5.  **Currency Filtering**: Filter currencies according to the specified criteria.
+5. **Currency Filtering**: Filter currencies according to the specified criteria.
 
-6.  **Displaying Results to Users**: Present the filtered results clearly and understandably to users.
+6. **Displaying Results to Users**: Present the filtered results clearly and understandably to users.
 
  
 ### Installation:
 
 1. Clone this repository to your local machine:
 
- ```
-   git clone <Repositoty_URL>
-```
+  ```sh
+  git clone <Repositoty_URL>
+  ```
 
 ---
