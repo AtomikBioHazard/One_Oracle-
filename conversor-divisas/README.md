@@ -1,6 +1,14 @@
-[Ver en Español](README_ES.md)
+# Currency Converter
 
-## Currency Converter
+
+[![Ver en Español](https://img.shields.io/badge/Ver%20en%20Espa%C3%B1ol-README_ES.md-blue)](README_ES.md)
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-yellow" alt="Badge en Desarollo">
+  <img src="https://img.shields.io/github/stars/atomikbiohazard?style=social" alt="GitHub Org's stars">
+</p>
+
 
 This project focuses on creating a currency converter. Throughout this process, the necessary steps will be detailed to set up the Java environment, consume a currency exchange rate API, analyze the JSON response, filter currencies, and finally display the results to users.
 
@@ -82,19 +90,19 @@ In this step, we will implement the logic to make requests to the exchange rates
 4. **Access the Data**: After the response is converted to a JSON object, we can access the necessary data, such as the exchange rates for different currencies.
 
 
-4. **JSON Response Analysis**: Develop the logic to analyze the JSON response and extract the necessary data.
+4.  **JSON Response Analysis**: Develop the logic to analyze the JSON response and extract the necessary data.
 
-5. **Currency Filtering**: Filter currencies according to the specified criteria.
+5.  **Currency Filtering**: Filter currencies according to the specified criteria.
 
-6. **Displaying Results to Users**: Present the filtered results clearly and understandably to users.
+6.  **Displaying Results to Users**: Present the filtered results clearly and understandably to users.
 
  
 ### Installation:
 
 1. Clone this repository to your local machine:
 
-  ```sh
-  git clone <Repositoty_URL>
-  ```
+ ```
+   git clone <Repositoty_URL>
+   ```
 
 ---
