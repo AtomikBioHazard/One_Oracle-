@@ -69,7 +69,18 @@ In this step, we will create a new project using your preferred IDE, either Inte
 7. Visual Studio Code will automatically create the project structure and open the project folder in the side explorer.
 
 
-3. **API Consumption**: Implement the logic to make requests to the currency exchange rate API.
+#### 3. API Consumption:
+
+In this step, we will implement the logic to make requests to the exchange rates API. We will be using the API provided by [ExchangeRate-API](https://www.exchangerate-api.com).
+
+1. **Define the API URL**: We will use the URL provided by the API documentation, which in this case is `https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD`. Make sure to replace `"YOUR-API-KEY"` with your API key provided by the service.
+
+2. **Make the HTTP Request**: We will use the `URL` class to create a URL object based on the API URL. Then, we will open an `HttpURLConnection` connection and make a GET request to the API to fetch the exchange rate data.
+
+3. **Convert the Response to JSON**: Once we receive the API response, we will convert it to JSON format. We will use the Google GSON library to facilitate this task.
+
+4. **Access the Data**: After the response is converted to a JSON object, we can access the necessary data, such as the exchange rates for different currencies.
+
 
 4. **JSON Response Analysis**: Develop the logic to analyze the JSON response and extract the necessary data.
 
