@@ -36,7 +36,38 @@ In this initial stage, we will focus on configuring the Java development environ
        - Run `source ~/.bash_profile` (or `source ~/.bashrc`) to apply the changes without restarting the terminal.
 
 
-2. **Project Creation**: Create a new project in your preferred IDE.
+#### 2. Project Creation:
+
+In this step, we will create a new project using your preferred IDE, either IntelliJ IDEA or Visual Studio Code.
+
+##### Creating the Project in IntelliJ IDEA:
+
+1. Open IntelliJ IDEA on your system.
+
+2. In the IntelliJ startup window, select "Create New Project" or go to the "File" menu > "New" > "Project".
+
+3. Select "Java" from the list of options and click "Next".
+
+4. Configure the project according to your preferences. You can select the Java SDK installed in the previous step and choose the project location on your system.
+
+5. Click "Finish" to create the project.
+
+##### Creating the Project in Visual Studio Code:
+
+1. Open Visual Studio Code on your system.
+
+2. Press Shift + Ctrl + P to open the command palette.
+
+3. Type "Java: Create New Project" and select that option.
+
+4. Select the type of project you want to create (e.g., "Java" or "Maven").
+
+5. Choose the folder where you want to create the project.
+
+6. Provide the project name when prompted.
+
+7. Visual Studio Code will automatically create the project structure and open the project folder in the side explorer.
+
 
 3. **API Consumption**: Implement the logic to make requests to the currency exchange rate API.
 
