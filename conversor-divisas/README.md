@@ -120,7 +120,21 @@ In this phase, we will focus on filtering the currencies according to the establ
 3. **Implement the Filtering**: Using the Gson library in Java, implement the logic to filter the currencies according to the selected codes. Access the "Currency Code" attribute in the JSON response and filter the currencies based on the chosen codes.
 
 
-6.  **Displaying Results to Users**: Present the filtered results clearly and understandably to users.
+#### 6. Displaying Results to Users:
+
+In this final phase, we will present the filtered results in a clear and understandable manner for the users. Follow these detailed steps to achieve this:
+
+1. **Prepare the User Interface**: Design a user-friendly interface to display the conversion results. Consider using a simple console-based interface for this purpose.
+
+2. **Display Currency Conversion Options**: Present the user with options for currency conversion. This could include displaying a list of available currencies or providing a prompt for the user to input their desired currency pair.
+
+3. **Collect User Input**: Utilize the Scanner class in Java to capture user input regarding the currencies they wish to convert and the amount to convert.
+
+4. **Perform Currency Conversion**: Implement the logic to calculate the converted values based on the selected currencies and the obtained exchange rates. Apply the conversion rates to the user-provided input to determine the converted amounts.
+
+5. **Display Results**: Present the converted values to the user in a clear format. Ensure that the results include both the original and converted currency amounts for easy comparison.
+
+6. **Test the User Interface**: Thoroughly test the user interface to verify that it behaves as expected. Test various scenarios, including valid and invalid user inputs, to ensure robustness.
 
  
 ### Installation:
