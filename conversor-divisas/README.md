@@ -103,7 +103,22 @@ In this stage, we will dive into analyzing the JSON response obtained from the e
 4. **Extract the Necessary Data**: Using Gson, extract the exchange rates from the JSON response and store them in a suitable data structure for later use in the Currency Converter.
 
 
-5.  **Currency Filtering**: Filter currencies according to the specified criteria.
+#### 5. Currency Filtering:
+
+In this phase, we will focus on filtering the currencies according to the established criteria. Follow these steps to perform the filtering:
+
+1. **Understand the JSON Structure**: Before starting the filtering process, make sure to understand the JSON structure of the API response. Identify the attribute that contains the currency codes, called "Currency Code".
+
+2. **Select the Currencies**: Based on the established criteria, choose at least three currency codes to include in your application. For this challenge, the suggested codes are:
+   - ARS: Argentine Peso
+   - BOB: Bolivian Boliviano
+   - BRL: Brazilian Real
+   - CLP: Chilean Peso
+   - COP: Colombian Peso
+   - USD: US Dollar
+
+3. **Implement the Filtering**: Using the Gson library in Java, implement the logic to filter the currencies according to the selected codes. Access the "Currency Code" attribute in the JSON response and filter the currencies based on the chosen codes.
+
 
 6.  **Displaying Results to Users**: Present the filtered results clearly and understandably to users.
 
