@@ -90,7 +90,18 @@ In this step, we will implement the logic to make requests to the exchange rates
 4. **Access the Data**: After the response is converted to a JSON object, we can access the necessary data, such as the exchange rates for different currencies.
 
 
-4.  **JSON Response Analysis**: Develop the logic to analyze the JSON response and extract the necessary data.
+#### 4. JSON Response Analysis:
+
+In this stage, we will dive into analyzing the JSON response obtained from the exchange rates API. This step is crucial for extracting the necessary data and displaying the exchange rates properly in our Currency Converter. Follow these steps to perform the analysis:
+
+1. **Review the JSON Response**: After making the request to the API, examine the JSON response received. Observe the structure of the data and familiarize yourself with the keys and values it contains.
+
+2. **Identify the Exchange Rates**: Within the JSON response, look for the object that contains the exchange rates for different currencies. This object is usually labeled as "conversion_rates".
+
+3. **Use the Gson Library**: To facilitate the analysis of the JSON response, we will use the Gson library in Java. This library allows us to convert the JSON response into Java objects and access their properties easily.
+
+4. **Extract the Necessary Data**: Using Gson, extract the exchange rates from the JSON response and store them in a suitable data structure for later use in the Currency Converter.
+
 
 5.  **Currency Filtering**: Filter currencies according to the specified criteria.
 
