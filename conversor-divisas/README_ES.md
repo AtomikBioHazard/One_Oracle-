@@ -103,7 +103,21 @@ En esta etapa, nos sumergiremos en el análisis de la respuesta JSON obtenida de
 4. **Extrae los Datos Necesarios**: Utilizando Gson, extrae las tasas de cambio de la respuesta JSON y almacénalas en una estructura de datos adecuada para su posterior uso en el Conversor de Monedas.
 
 
-5. **Filtro de Monedas**: Filtra las monedas según los criterios establecidos.
+#### 5. Filtro de Monedas:
+
+En esta fase, nos centraremos en filtrar las monedas según los criterios establecidos. Sigue estos pasos para realizar el filtro:
+
+1. **Comprende la Estructura JSON**: Antes de comenzar el filtrado, asegúrate de comprender la estructura JSON de la respuesta de la API. Identifica el atributo que contiene los códigos de las monedas, denominado "Currency Code".
+
+2. **Selecciona las Monedas**: Basándote en los criterios establecidos, elige al menos tres códigos de moneda para incluir en tu aplicación. Para este desafío, los códigos sugeridos son:
+   - ARS: Peso argentino
+   - BOB: Boliviano boliviano
+   - BRL: Real brasileño
+   - CLP: Peso chileno
+   - COP: Peso colombiano
+   - USD: Dólar estadounidense
+
+3. **Implementa el Filtrado**: Utilizando la biblioteca Gson en Java, implementa la lógica para filtrar las monedas según los códigos seleccionados. Accede al atributo "Currency Code" en la respuesta JSON y filtra las monedas según los códigos elegidos.
 
 6. **Exhibición de Resultados a los Usuarios**: Presenta los resultados filtrados de manera clara y comprensible para los usuarios.
 
