@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-yellow" alt="Badge en Desarollo">
+  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-yellow" alt="In Development Badge">
   <img src="https://img.shields.io/github/stars/atomikbiohazard?style=social" alt="GitHub Org's stars">
 </p>
 

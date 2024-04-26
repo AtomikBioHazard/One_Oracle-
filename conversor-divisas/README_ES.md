@@ -1,6 +1,14 @@
-[English Version](README.md)
+# Conversor de Monedas
 
-## Conversor de Monedas
+
+[![English Version](https://img.shields.io/badge/Ver%20en%20Espa%C3%B1ol-README_ES.md-blue)](README.md)
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO-yellow" alt="Badge en Desarollo">
+  <img src="https://img.shields.io/github/stars/atomikbiohazard?style=social" alt="GitHub Org's stars">
+</p>
+
 
 Este proyecto se centra en la creación de un conversor de monedas. A lo largo de este proceso, se detallarán los pasos necesarios para configurar el ambiente Java, consumir una API de tasas de cambio, analizar la respuesta JSON, filtrar las monedas y finalmente mostrar los resultados a los usuarios.
 
