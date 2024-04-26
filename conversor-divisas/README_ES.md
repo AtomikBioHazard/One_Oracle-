@@ -119,7 +119,22 @@ En esta fase, nos centraremos en filtrar las monedas según los criterios establ
 
 3. **Implementa el Filtrado**: Utilizando la biblioteca Gson en Java, implementa la lógica para filtrar las monedas según los códigos seleccionados. Accede al atributo "Currency Code" en la respuesta JSON y filtra las monedas según los códigos elegidos.
 
-6. **Exhibición de Resultados a los Usuarios**: Presenta los resultados filtrados de manera clara y comprensible para los usuarios.
+
+#### 6. Exhibición de Resultados a los Usuarios:
+
+En esta fase final, presentaremos los resultados filtrados de manera clara y comprensible para los usuarios. Sigue estos pasos detallados para lograrlo:
+
+1. **Preparar la Interfaz de Usuario**: Diseña una interfaz amigable para mostrar los resultados de la conversión. Considera utilizar una interfaz sencilla basada en la consola para este propósito.
+
+2. **Mostrar Opciones de Conversión de Monedas**: Presenta al usuario opciones para la conversión de monedas. Esto podría incluir mostrar una lista de monedas disponibles o proporcionar un mensaje para que el usuario ingrese el par de monedas deseado.
+
+3. **Recopilar la Entrada del Usuario**: Utiliza la clase Scanner en Java para capturar la entrada del usuario con respecto a las monedas que desean convertir y la cantidad a convertir.
+
+4. **Realizar la Conversión de Monedas**: Implementa la lógica para calcular los valores convertidos basados en las monedas seleccionadas y las tasas de cambio obtenidas. Aplica las tasas de cambio a la entrada proporcionada por el usuario para determinar los montos convertidos.
+
+5. **Mostrar los Resultados**: Presenta los valores convertidos al usuario en un formato claro. Asegúrate de que los resultados incluyan tanto los montos de la moneda original como los convertidos para facilitar la comparación.
+
+6. **Probar la Interfaz de Usuario**: Prueba exhaustivamente la interfaz de usuario para verificar que funcione según lo esperado. Prueba diversos escenarios, incluidas entradas de usuario válidas e inválidas, para garantizar su robustez.
 
 
 ### Instalación:
