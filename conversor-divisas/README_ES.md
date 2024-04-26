@@ -90,7 +90,18 @@ En este paso, implementaremos la lógica para realizar solicitudes a la API de t
 4. **Acceder a los Datos**: Una vez que la respuesta se haya convertido en un objeto JSON, podremos acceder a los datos necesarios, como las tasas de cambio para diferentes monedas.
 
 
-4. **Análisis de la Respuesta JSON**: Desarrolla la lógica para analizar la respuesta JSON y extraer los datos necesarios.
+#### 4. Análisis de la Respuesta JSON:
+
+En esta etapa, nos sumergiremos en el análisis de la respuesta JSON obtenida de la API de tasas de cambio. Este paso es esencial para extraer los datos necesarios y mostrar las tasas de cambio de manera adecuada en nuestro Conversor de Monedas. Sigue estos pasos para realizar el análisis:
+
+1. **Revisa la Respuesta JSON**: Después de realizar la solicitud a la API, examina la respuesta JSON obtenida. Observa la estructura de los datos y familiarízate con las claves y valores que contiene.
+
+2. **Identifica las Tasas de Cambio**: Dentro de la respuesta JSON, busca el objeto que contiene las tasas de cambio para diferentes monedas. Este objeto suele estar etiquetado como "conversion_rates".
+
+3. **Utiliza la Biblioteca Gson**: Para facilitar el análisis de la respuesta JSON, utilizaremos la biblioteca Gson en Java. Esta biblioteca nos permite convertir la respuesta JSON en objetos Java y acceder a sus propiedades de manera sencilla.
+
+4. **Extrae los Datos Necesarios**: Utilizando Gson, extrae las tasas de cambio de la respuesta JSON y almacénalas en una estructura de datos adecuada para su posterior uso en el Conversor de Monedas.
+
 
 5. **Filtro de Monedas**: Filtra las monedas según los criterios establecidos.
 
