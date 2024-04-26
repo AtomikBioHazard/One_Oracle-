@@ -1,7 +1,7 @@
 # Conversor de Monedas
 
 
-[![English Version](https://img.shields.io/badge/Ver%20en%20Espa%C3%B1ol-README_ES.md-blue)](README.md)
+[![English Version](https://img.shields.io/badge/Ver%20en%20Espa%C3%B1ol-README.md-blue)](README.md)
 
 
 <p align="center">
