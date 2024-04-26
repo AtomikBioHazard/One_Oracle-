@@ -2,6 +2,7 @@ package com.aluracursos.conversorDivisas.models;
 
 import java.util.Map;
 
-public record ExchangeRateResponse(String result, String baseCode, ConversionRates conversionRates) {
-  public record ConversionRates(Map<String, Double> rates) {}
+import com.google.gson.JsonObject;
+
+public record ExchangeRateResponse(String base_code, JsonObject conversion_rates) {
 }
