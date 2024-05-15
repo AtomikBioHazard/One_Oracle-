@@ -41,7 +41,7 @@ public record Currency(String base_code, String target_code, Map<String, Double>
    */
   public double convertAmount(double amount, double conversionRate, String targetCode) {
     double conversionResult = amount * conversionRate;
-    System.out.println("El valor: " + amount + "(" + base_code() + ")" + " es igual " + conversionResult + "(" + target_code + ")");
+    System.out.println("El valor: " + amount + "(" + base_code() + ")" + " es igual " + conversionResult + "(" + targetCode + ")");
     return conversionResult;
   }
 }
