@@ -1,15 +1,24 @@
 package com.aluracursos.literatura;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.aluracursos.literatura.principal.Principal;
+import com.aluracursos.literatura.repository.AutorRepository;
+import com.aluracursos.literatura.repository.LibroRepository;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
 @SpringBootApplication
 public class LiteraturaApplication implements CommandLineRunner {
+
+	@Autowired
+	private LibroRepository libroRepository;
+
+	@Autowired
+	private AutorRepository autorRepository;
 
 	public static void main(String[] args) {
 		String envileFilePath = "/literatura/.env";
@@ -24,8 +33,9 @@ public class LiteraturaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Principal principal = new Principal();
-		principal.menu();
+		Principal principal = new Principal(autorRepository, libroRepository);
+
+		principal.mostrarMenu();
 	}
 
 }
